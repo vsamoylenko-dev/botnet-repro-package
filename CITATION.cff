@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Reproducibility package for time-aware botnet detection experiments"
+message: "If you use this repository, please cite the associated article and this software release."
+type: software
+authors:
+  - family-names: "Samoilenko"
+    given-names: "Vladyslav"
+  - family-names: "Gakhov"
+    given-names: "Sergii"
+license: MIT
+repository-code: "https://github.com/USERNAME/REPOSITORY"
+abstract: "Code, configuration, and generated outputs for reproducing time-aware botnet detection experiments with reliability-constrained threshold calibration and end-to-end benchmarking."
