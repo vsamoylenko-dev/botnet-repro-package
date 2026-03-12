@@ -8,5 +8,5 @@ authors:
   - family-names: "Gakhov"
     given-names: "Sergii"
 license: MIT
-repository-code: "https://github.com/USERNAME/REPOSITORY"
+repository-code: "https://github.com/vsamoylenko-dev/botnet-repro-package"
 abstract: "Code, configuration, and generated outputs for reproducing time-aware botnet detection experiments with reliability-constrained threshold calibration and end-to-end benchmarking."
