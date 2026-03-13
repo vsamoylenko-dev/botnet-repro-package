@@ -1,0 +1,4 @@
+Model,trial_id,Val_AP_forward,Constraint_Mode,Constraint_MinThreshold,Calibrated_Threshold,Val_OOF_Max_F1,Val_OOF_F1@0.5,Val_OOF_F1@MinTh,invalid_val_blocks,Test_S2_P,Test_S2_R,Test_S2_F1,Test_S2_TP,Test_S2_FP,Test_S2_FN,Test_S2_TN,Test_S2_ROC_AUC,Test_S2_PR_AUC,Thu_AlertRate_All,Thu_FPR_Benign,Throughput_Median,N_Trees
+Light,0,0.9866,thursday_fpr<= 0.01,0.7038,0.721,0.9828,0.9803,0.9825,0,0.9935,0.9757,0.9845,65821,433,1639,55899,0.9971,0.996,0.0082,0.0086,1834780,20
+Balanced,2,0.9976,thursday_fpr<= 0.01,0.2697,0.2974,0.9941,0.9938,0.9936,0,0.9943,0.9982,0.9963,67338,384,122,55948,0.9996,0.9995,0.0093,0.0098,1559658,40
+Heavy,15,0.9985,thursday_fpr<= 0.01,0.3821,0.3994,0.9932,0.9916,0.9914,0,0.995,0.998,0.9965,67328,337,132,55995,0.9994,0.9995,0.009,0.0094,525522,90
