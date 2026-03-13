@@ -1,4 +1,0 @@
-Model,Val AP forward,Throughput E2E median,learning rate,max depth,subsample,colsample bytree,n estimators
-Balanced,0.9976,1518909,0.2158,3,0.7571,0.7962,40
-Heavy,0.9985,575867,0.0117,7,0.8388,0.5083,90
-Light,0.9866,1960607,0.104,3,0.578,0.529,20

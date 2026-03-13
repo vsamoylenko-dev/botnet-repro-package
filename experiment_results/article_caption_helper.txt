@@ -1,9 +1,0 @@
-Figure 1. Pareto frontier: detection quality versus efficiency.
-Figure 2. End-to-end time decomposition (DMatrix construction and prediction).
-Figure 3. Precision-Recall and ROC curves on S2 (future window).
-Figure 4. Confusion matrices on S2 at calibrated thresholds.
-Figure 5. Score distributions on S2 with calibrated thresholds.
-Figure 6. Negative-day reliability: Thursday benign FPR versus threshold.
-
-Table 1. Selected Pareto-optimal XGBoost configurations with key hyperparameters and efficiency-quality indicators.
-Table 2. Final calibrated results on S2 and Thursday negative-day reliability.
