@@ -66,18 +66,22 @@ The main diagnostic outputs are saved in `experiment_results/diagnostics/` and i
 - `selected_ids.json`
 - `calibrated_models.json`
 
-The final result table is saved as:
+The final result tables are saved as:
 
 - `experiment_results/final_calibrated_results.csv`
+- `experiment_results/table1_selected_pareto_configs.csv`
+- `experiment_results/table2_article_results.csv`
+- `experiment_results/table2_article_results_full.csv`
+- `experiment_results/article_caption_helper.txt`
 
 The generated figures are saved in `experiment_results/paper_figures/` and include:
 
-- `fig_pareto_frontier.png`
-- `fig_e2e_time_decomposition.png`
-- `fig_s2_pr_roc_curves.png`
-- `fig_s2_confmat_panel.png`
-- `fig_s2_score_distributions.png`
-- `fig_thursday_fpr_vs_threshold_all.png` (if Thursday data are available)
+- `fig1_pareto_frontier.png`
+- `fig2_e2e_time_decomposition.png`
+- `fig3_s2_pr_roc_curves.png`
+- `fig4_thursday_fpr_vs_threshold_all.png` (if Thursday data are available)
+- `fig5_s2_score_distributions.png`
+- `fig6_s2_confmat_panel.png`
 
 ## Labeling Convention
 
@@ -100,4 +104,4 @@ This repository provides the full experimental protocol, code, configuration, an
 
 ## Citation
 
-If you use this code or build upon this reproducibility package, please cite the associated article and the repository release.
+If you use this reproducibility package, please cite the associated article and, where appropriate, the repository release.
