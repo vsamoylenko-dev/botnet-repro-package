@@ -1101,7 +1101,7 @@ def main():
         cbar = fig.colorbar(im, ax=axes, fraction=0.02, pad=0.05)
         cbar.set_label("Count")
 
-        _savefig_fig(fig, PAPER_FIG_DIR / "fig4_s2_confmat_panel.png")
+        _savefig_fig(fig, PAPER_FIG_DIR / "fig6_s2_confmat_panel.png")
 
     if len(model_names) > 0:
         fig, ax = plt.subplots(figsize=(9, 6))
@@ -1151,7 +1151,7 @@ def main():
         ax.legend()
         ax.grid(True, linestyle="--", alpha=0.4)
 
-        _savefig_fig(fig, PAPER_FIG_DIR / "fig6_thursday_fpr_vs_threshold_all.png")
+        _savefig_fig(fig, PAPER_FIG_DIR / "fig4_thursday_fpr_vs_threshold_all.png")
 
     # ============================================================
     # ARTICLE-READY EXPORTS
@@ -1260,9 +1260,9 @@ def main():
     caption_helper = """Figure 1. Pareto frontier: detection quality versus efficiency.
 Figure 2. End-to-end time decomposition (DMatrix construction and prediction).
 Figure 3. Precision-Recall and ROC curves on S2 (future window).
-Figure 4. Confusion matrices on S2 at calibrated thresholds.
+Figure 4. Negative-day reliability: Thursday benign FPR versus threshold.
 Figure 5. Score distributions on S2 with calibrated thresholds.
-Figure 6. Negative-day reliability: Thursday benign FPR versus threshold.
+Figure 6. Confusion matrices on S2 at calibrated thresholds.
 
 Table 1. Selected Pareto-optimal XGBoost configurations with key hyperparameters and efficiency-quality indicators.
 Table 2. Final calibrated results on S2 and Thursday negative-day reliability.
